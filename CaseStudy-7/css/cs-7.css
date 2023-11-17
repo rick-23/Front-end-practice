@@ -1,0 +1,261 @@
+/* Clearfix class starts */
+.clearfix:before,
+.clearfix:after
+{
+    content: " ";
+    /* 1 */display: table; /* 2 */
+}
+.clearfix:after
+{
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix
+{
+    *zoom: 1;
+}
+/* End of clearfix */
+
+/*The Header*/
+.wrapper
+{
+    margin: 0 auto;
+    background-color: #E8E4D0;
+}
+.header
+{
+    width: 100%;
+    background-color: #00643A;
+    position: relative;
+    /*margin: 0 auto;*/
+    height: 45px;
+    margin-bottom: 80px;
+}
+.head
+{
+    width: 1000px;
+    margin: 0 auto;
+    /*border: 1px solid #FFF;*/
+}
+/*The Navigation Bar*/
+.greenies
+{
+    float: left;
+    margin-left: -20px;
+}
+/*.img1
+{
+    height: 45px;
+    width: 155px;
+}*/
+.nav
+{
+    float: left;   
+}
+.menu
+{
+    color: #8ACFB2;
+    font-size: 16px;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} 
+li
+{
+    float: left;
+}
+.anc
+{
+    color: #8ACFB2;
+    font-size: 16px;
+    text-decoration: none;
+}
+.div
+{
+    padding-top: 7px;
+}
+li a
+{
+    display: block;
+    padding: 8px;
+}
+li a:hover 
+{
+    color: #FFF;
+}
+.smart
+{
+    float: left;
+}
+.img2
+{
+    padding-left: 20px;
+}
+/*The right header*/
+.right
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.fb
+{
+    float: right;
+}
+.search
+{
+    float: right;
+}
+.store
+{
+    float: right;
+}
+.img3
+{
+    width: 20px;
+    height: 20px;
+    padding-top: 12.5px;
+    padding-right: 5px;
+}
+
+.vet
+{
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+/*End of the Header*/
+/*The Content*/
+.content
+{
+    width: 970px;
+    margin: 0 auto;
+    background-color: #F2EFDE;
+    /*border: 1px solid #000;*/
+}
+.inner
+{
+    padding-left: 20px;
+}
+h1
+{
+    font-size: 32px;
+    color: #0B7142;
+    padding-top: 13px;
+}
+.p1
+{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -22px;
+}
+
+/*The Second Row*/
+.img-cat_dental_care
+{
+    position: relative;
+    padding-top: 19px;
+}
+h4
+{
+    font-size: 20px;
+    color: #006B3F;
+    line-height: 18px; 
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.para-two
+{
+    position: absolute;
+    left:800px;
+    top: 263px;
+    background-color: #A7A7A7;
+    height: 121px;
+    width: 321px;
+}
+.para-two p
+{
+    margin-top: -23px;
+    font-size: 12.5px;
+    margin-left: 10px;
+    padding-right: 2px;
+}
+.para-two a
+{
+    text-decoration: none;
+    color: #268F93;
+    font-size: 12px;
+    font-weight:bold;
+}
+.button
+{
+    margin-top: -20px;
+    float: right;
+    margin-right: 35px;
+    font-size: 11px;
+}
+.button ul
+{
+    list-style: none;
+}
+.button ul li
+{
+    display: inline;
+}
+.button-img li a
+{
+    text-decoration: none;
+    color: gray;
+    padding-right: 8px;
+}
+button
+{
+    height: 17px;
+    width: 15px;
+    font-size:10px;
+    text-align: center; 
+    border-radius: 3px;
+    padding-right: 5px;
+    padding-left:1px;
+    background-color: #ffffff;
+    margin-right: 3px;
+}
+
+
+/*start of the third line*/
+.vetical-line{border-color: #C8C4B9 ;border-style: solid;border-width: 0 1px 0 0;height:410px;margin-right: 485px;margin-top: 20px;}
+.left-content{float: left;width: 450px;}
+.right-content{float: left;width: 400px;}
+.line-one{font-size: 16px; color: #A56818;font-weight: bold;}
+.line-one a{color:#268F93;font-size: 10px;font-weight:bold;padding-left :200px;}
+.line2-right .head-line{color: #2D7D56;font-size: 16px;font-weight:bold;}
+.line2-right .line2-right-content{font-size: 11px; line-height: 19px;margin-top: -14px;} 
+.line2-right .line2-right-content a{color: #268F93 ;font-size: 10px;font-weight: bold;}
+.line2-right{float: left;width: 213px;margin-top: -21px;padding-left: 27px;}
+.line2-left{float: left;width: 185px;}
+.line-two{padding-top: 20px;}
+.heading{font-size: 14px;color:#2D7D56;margin-top:0;font-weight: bold;}
+.link{color:#268F93;font-size: 10px;font-weight:bold; }
+.content-para{font-size: 10px;line-height: 19px;margin-top: -10px;margin-right: 10px;}
+.line-three{padding-top: 145px;}
+.rite{float: left; width: 440px;padding-left: 20px;}
+.rtop{padding-bottom: 130px;}
+.rtopic{padding-bottom: 10px;}
+.rtopic1{font-size: 16px; font-weight: bold; color: #B26800;float:left;}
+.rtopic2{float: right;}
+.imgr{float:left;width:190px;}
+.textr{float:left;width:200px;}
+.textr h2{margin-top: 0; font-size: 16px; font-weight: bold; color: #006B3F;}
+.textr p{line-height: 16px;margin-top: 0;font-size: 11px;}
+.rbottom{width:426px;}
+.rbottom p{margin-top: 3px;}
+h3{font-size: 14px;color: #006B3F;margin-bottom: 0;}
+/*end of the third line*/
