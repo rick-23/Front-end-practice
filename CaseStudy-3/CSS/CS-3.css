@@ -1,0 +1,211 @@
+/*Case Study 3 External CSS File*/
+/* Clearfix class starts */
+.clearfix:before,
+.clearfix:after 
+{
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after
+{
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix 
+{
+    *zoom: 1;
+}
+
+/* End of clearfix */
+
+/*The Body Tag*/
+body
+{
+    background-color: #232323;
+}
+/*End of body*/
+/*The Wrapper Class*/
+.wrapper
+{
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid white;
+    background-color: black;
+    /*position: absolute;*/
+}
+/*The Header*/
+/*The Left Header*/
+.lefthead
+{
+    float: left;
+    width: 580px;
+    padding-left: 20px;
+}
+/*The Right Header*/
+.righthead
+{
+    float: left;
+    width: 250px;
+    padding-left: 40px;
+}
+/*The Header Images*/
+.img1
+{
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 550px;
+    
+}
+.img2
+{
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 30px;
+    width: 490px;
+}
+.img3
+{
+    float: left;
+    padding-top: 44px;
+    padding-bottom: 12px;
+    align-content: center;
+    height: 70px;
+    width: 195px;
+}
+/*End of the Header*/
+
+/*Start of Content*/
+/*The First Row*/
+.row1
+{
+    padding-left: 30px;
+}
+/*The Row-1 Images*/
+.img4
+{
+    padding-top: 100px;
+    padding-left: 40px;
+    height: 150px;
+    width: 280px;
+    float: left;
+}
+.img5
+{
+    padding-top: 125px;
+    height: 150px;
+    width: 263px;
+    float: left;
+}
+.img6
+{
+    height: 150px;
+    padding-top: 100px;
+    padding-left: 10px;
+    width: 263px;
+    float: left;
+}
+/*The Row-1 Captions*/
+.row1cap
+{
+    display: inline;
+    color: white;
+    font-size: 14px;
+}
+.cap1
+{
+    padding-left: 110px;
+    display:inline;
+}
+.cap2
+{
+    padding-left: 115px;
+    display: inline;
+}
+.cap3
+{
+    padding-left: 100px;
+    display:inline;
+}
+/*End of First Row*/
+/*The Second Row*/
+.row2
+{
+    padding-left: 50px;
+ }
+ /*The Row-2 Images*/
+.img7
+{
+    float: left;
+    width: 260px;
+    padding-top: 175px;
+    padding-left: 30px;
+}
+.img8
+{
+    float: left;
+    width: 270px;
+    padding-top: 190px;
+    padding-left: 10px
+}
+.img9
+{
+    float: left;
+    width: 260px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 70px;
+    height: 300px;
+}
+/*The Captions*/
+.row2cap
+{
+    display: inline;
+    color: white;
+    font-size: 14px;
+}
+.cap4
+{
+    padding-left: 120px;
+    display: inline;
+}
+.cap5
+{
+    padding-left: 130px;
+    display: inline;
+}
+.cap6
+{
+    padding-left: 130px;
+    display: inline;
+}
+/*End of the Second Row*/
+
+/*The Third Row*/
+.img10
+{
+    padding-left: 100px;
+    padding-top: 70px
+}
+
+/*End of Content*/
+
+/*The Footer*/
+.foot
+{
+    color: #FFFFFF;
+    position: relative;
+    font-size: 14px;
+    padding-left: 290px;
+
+}
+.link
+{
+    color: #FFFFFF;
+}
+/*End of Wrapper*

@@ -1,0 +1,123 @@
+/*The CSS File*/
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;    
+}
+/*The Parent Div Tag or The Wrapper*/
+.wrapper
+{
+    width: 960px;
+    margin: 0 auto;
+    border: 1px saddlebrown;
+}
+
+/* Clearfix class starts */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+
+/* End of clearfix */
+
+/*The Header*/
+.header
+{
+    height: 75px;
+    line-height: 75px;
+    color: #000000;
+    background-color: #CCCCCC;
+    font-size: 16px;
+    text-indent: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px green;
+}
+.menubar
+{
+    height: 27px;
+    line-height: 27px;
+    background-color: #000000;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px red;
+}
+ul.items
+{
+    padding: 5px;
+    /*width: 0;*/
+    margin: 0 auto;
+    list-style-type: none;
+    display: inline;
+}
+ul.items li
+{
+    padding: 5px 5px;
+    display: inline;
+    color: #FFFFFF;
+    margin: 0 auto;
+    border-right: 1px solid #FFFFFF; 
+}
+.parent
+{
+    content: " ";
+    display: block;
+    clear: left;
+    height: 450px;
+}
+.left
+{
+    float: left;
+    width: 600px;
+    /*border: 1px solid darkblue;*/
+    padding: 20px;
+    height: 450px;
+}
+
+.left h1{ padding-top: 15px; }
+
+.left p{ padding-right: 10px; }
+
+.heading
+{
+    color: #000000;
+    margin: 0 auto;
+}
+.right
+{
+    background-color: #CCCCCC;
+    float: left;
+    width: 280px;
+    /*border: 1px orangered;*/
+    padding: 20px;
+    height: 450px;
+}
+.header
+{
+    color: #000000;
+    margin: 0 auto;
+}
+.footer
+{
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    background-color: #CCCCCC;
+    color: #000000;
+    text-align: right;
+    padding: 15px;
+}

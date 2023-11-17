@@ -1,0 +1,220 @@
+/*The CSS File*/
+/*HTML Element Styling*/
+body
+{
+    background-color: #212121;
+    
+}
+/* Clearfix class starts */
+.clearfix:before,
+.clearfix:after 
+{
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after
+{
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix 
+{
+    *zoom: 1;
+}
+
+/* End of clearfix */
+/*The Class Selectors*/
+/*The Wrapper Class*/
+.wrapper
+{
+    background-color: #F3842A;
+    margin: 0 auto;
+    width: 1135px;
+}
+/*The Header Class*/
+.head
+{
+    width: 950px;
+    height: 100px;
+    margin: 0 auto;
+}
+/*For the Image on the Left Side*/
+.lefthead
+{
+    float: left;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+/*For the menu on the Right Side*/
+.righthead
+{
+    float: right;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+ul.menu
+{
+    margin: 0 auto;
+    list-style-type: none;
+    display: inline;
+}
+ul.menu li
+{
+    display: inline;
+    padding-right: 20px;
+    color: #3C4937;
+    margin: 0 auto;
+}
+ul.menu li:last-child
+{
+    padding-right: 0px;
+}
+/*End of the Header Class*/
+/*The Main Content Class*/
+.content
+{
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    width: 950px;
+    /*height: 1100px;*/
+    padding-top: 30px;
+}
+/*The First Row*/
+.row1
+{
+    /*padding-top:30px;*/
+    background: url("../images/fors_banner.jpg") 0 0 no-repeat;
+    width: 850px;
+    margin: 0 auto;
+    height: 330px;
+    position: relative;
+}
+.content1
+{
+    width: 275px;
+    height: 250px;
+    position: absolute;
+    top: 40px;
+    right: 28px;
+}
+
+.content1 img 
+{
+    /*margin-left: 15px;
+    margin-top: -25px;*/
+    margin-left: 188px;
+    margin-top: -75px;
+}
+
+.c1heading
+{
+    font-size: 20px;
+    font-style: italic;
+    color: #40749C;
+}
+.c1para
+{
+    font-size: 13px;
+    width: 260px;
+}
+.points
+{
+    margin: 0;
+    padding-left: 20px;
+    float: left;
+    list-style-image: url("../images/link_button.jpg");
+    font-size: 11px;   
+}
+/*End of the First Row*/
+/*The Second Row*/
+.row2
+{
+    margin: 0 auto;
+    /*background: url("../images/flash.jpg") 0 0 no-repeat;*/
+}
+.img1
+{
+    padding-top: 35px;
+    padding-left: 39px;
+}
+/*End of the Second Row*/
+/*The Last Row*/
+.row3
+{
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-left: 55px;
+    padding-bottom: 100px;
+}
+.col1
+{
+    float: left;
+}
+.left
+{
+    margin-left: 20px;
+    margin-top: -183px
+}
+.p2
+{
+    /*text-align: center;*/
+    font-style: italic;
+    padding-left: 35px;
+}
+.right
+{
+    margin-left: 151px;
+    margin-top: -178px;
+}
+.p3
+{
+    /*text-align: center;*/
+    font-style: italic;
+    margin-top: 5px;
+    padding-left: 30px;
+}
+.col2
+{
+    float: left;
+}
+.p1
+{
+    width: 250px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: -65px
+}
+.col3
+{
+    float: left;
+}
+.ola
+{
+    width: 250px;
+    font-style: italic;
+    margin-left: 5px;
+    margin-top: -125px;
+}
+/*The separator class*/
+.sep
+{
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 15px
+}
+
+/*The Footer*/
+.foot
+{
+    padding-left: 95px;
+    color: #FFFFFF;
+    padding-top: 25px;
+    font-style: italic;
+    padding-bottom: 35px;
+}

@@ -1,0 +1,448 @@
+body
+{
+  /*overflow-x: hidden;
+  overflow-y: scroll;*/
+}
+/* Clearfix class starts */
+.clearfix:before,
+.clearfix:after
+{
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after
+{
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix
+{
+    *zoom: 1;
+}
+/* End of clearfix */
+
+/*The Wrapper Class*/
+.wrapper
+{
+    width: 100%;
+    margin: 0 auto;
+}
+/*The Header*/
+.head
+{
+     background-color: #53AFDA;
+}
+/*The First Row in the Header*/
+.heading
+{
+    padding-top: 25px;
+    height: 130px;
+    width: 980px;
+    /*border: 1px solid purple;*/
+    margin: 0 auto;
+}
+/*Mars 24/7 Images Portion*/
+.col1
+{
+    float: left;
+}
+.img1
+{
+    height: 110px;
+    margin-top: -5px;
+    width: 103px
+}
+.r1c1
+{
+    float: left;
+    border-right: 1px solid #95EFFF; 
+    padding-right: 12px;
+}
+.r1c2
+{
+    padding-left: 12px;
+    float: left;
+}
+.r2
+{
+    margin-top: -15px;
+    padding-left: 5px;
+}
+.col2
+{
+    float: left;
+}
+.p1
+{
+    color: #95EFFF;
+    font-size: 18px;
+}
+.p2
+{
+    color: #E4FFFF;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+.col3
+{
+    float: left;
+}
+.img2
+{
+    height: 115px;
+    margin-top: -8px;
+    padding-left: 60px;
+    width: 120px
+}
+/*The Login Area*/
+.col4
+{
+    width: 350px;
+    float: left;
+}
+.c4r1
+{
+    color: #d4ffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.c4r2
+{
+    position: relative;
+}
+.t1
+{
+    width: 150px;
+}
+.t2
+{
+    width: 150px;
+}
+.img3
+{
+    height: 25px;
+    padding-left: 5px;
+    position: absolute;
+    width: 30px;
+}
+.c4r3
+{
+    color: #d4ffff;
+    font-size: 11px;
+    font-style: italic;
+    padding-left: 143px;
+    padding-top: 5px;
+}
+.c4r4
+{
+    color: #d4ffff;
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -5px;
+    padding-left: 20px;
+}
+.a
+{
+    color: #d4ffff;
+}
+/*End of the Header's First Row*/
+/*The Menu bar in the Header*/
+.menubar
+{
+    height: 60px;
+    margin: 0 auto;
+    width: 920px;
+}
+.menu
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E5EDF0;
+    border-radius: 5px;
+}
+.menu li
+{
+    float: left;
+    /*padding-top: 5px;*/
+    width: 150px;
+    /*height: 50px;*/
+    border-right: 1px solid #76A6B0;
+}
+li a 
+{
+    display: block;
+    color: #2B4C5F;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li:last-child 
+{
+    border-right: none;
+}
+li a:hover:not(.active) 
+{
+    background-color: #E5EDF0;
+}
+.active
+{
+    background-color: #106288;
+    color: #93D4F2;
+}
+.a1
+{
+    padding: 6px;
+}
+
+/*End of the menu bar */
+/*End of the Header*/
+
+/*The Content*/
+.content
+{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    /*width: 1366px;*/
+    /*margin: 0 auto;*/
+}
+.c
+{
+    
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 980px;
+    height: 900px;
+    
+}
+/*The Left Content*/
+.left
+{
+    float: left;
+    width: 430px;
+    border-color: #2B4C5F;
+    border-style: solid; border-width: 0 1px 0 0;
+    height: 675px;
+    margin-top: 40px;
+}
+
+.img4
+{
+    height: 310px;
+    margin: 0 auto;
+    padding-left: 50px;
+    width: 320px;
+}
+.p4
+{
+    color: #287587;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+.p5
+{
+    color: #5E5E5E;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 50px;
+}
+.img5
+{
+    margin: 0 auto;
+    padding-left: 140px;
+}
+
+.x1
+{
+    border-color: #2B4C5F;
+    border-style: solid; border-width: 0 0 1px 0;
+    width: 485px;
+    margin-left: 18px;
+    margin-top: 25px;
+}
+.a2
+{
+    float: left;
+    
+}
+/*The Right Content*/
+.right
+{
+    float: left;
+    width: 547px;
+    /*border: 1px solid crimson;*/
+    height: 750px;
+}
+.planner-pic
+{
+     width: 158px;
+     margin-left: 22px;
+     padding-top: 55px;
+}
+.a3
+{
+    float: left;
+    width: 250px;
+    padding-top: 55px;
+    
+}
+.green-thumb
+{
+    margin-left: 60px;
+    width: 150px;
+    height: 200px;
+}
+.p6
+{
+    margin-bottom: -2px;
+    font-size: 29px;
+    color: #0B5C87;
+    margin-top: -3px;
+    
+}
+.x21
+{
+    float: left;
+    width: 175px;
+}
+.img6
+{
+    height: 200px;
+    padding-left: 30px;
+    padding-top: 35px;
+    width: 140px;
+}
+.x22
+{
+    float: left;
+    width: 325px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.p7
+{
+    color: #106289;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    width: 300px;
+}
+.p8
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #5E5E5E;
+    width: 302px;
+}
+button
+{
+    background-color: #156185;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    width: 129px;
+    margin-left: 82px; margin-top: 13px;
+}
+.right3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 5px;
+}​
+
+.c2
+{
+    
+}
+/*The Horizontal Scroller in the Content*/
+.inner
+{
+    width: 940px;
+    margin: 0 auto;
+}
+.lw
+{
+    float:left;
+}
+.img7
+{
+    width: 30px;
+    height: 70px;
+}
+.mf
+{
+    float: left;
+}
+.in
+{
+    height: 68px;
+    width: 880px;
+    background-color: #ECECEC;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+.play-menu
+{
+    position: relative;
+    width: 880px;
+    height: 67px;
+     margin: 0 auto;
+     top: -121px;
+}
+.play
+{
+    list-style: none;
+    height: 20px;
+    width: 880px;
+    position: absolute;
+    top: 122px;
+}
+.play li
+{
+    float: left;
+    padding-left: 21px;
+    padding-right:10px;
+    
+}
+.play li:first-child
+{
+    padding-left: 5px;
+}
+.img9
+{
+    width: 110px;
+    height: 35px;
+}
+.rw
+{
+    float: left;
+}
+.img8
+{
+    width: 30px;
+    height: 70px;
+}
+/*End of the Content*/
+
+/*The Footer*/
+.footer
+{
+    height: 30px;
+    background-color: #106288;
+    text-align: center;
+    font-family: arial;
+    font-size: 11px;
+    color: #FFFFFF;
+    line-height: 30px;    
+}
